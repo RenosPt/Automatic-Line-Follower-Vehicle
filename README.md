@@ -18,6 +18,7 @@ A project to create an Automatic Line Follower Vehicle
 Για τον κώδικα θα χρειαστούμε το περιβάλλον Thonny.
 Το πρόγραμμα μας έχει δημιουργηθεί με την χρήση της γλώσσας MicroPython.
 Παρακάτω υπάρχει ο κώδικας του οχήματος μαζί με διάφορα σχόλια για την ευκολότερη κατανόηση του:
+
 import machine
 import utime
 
