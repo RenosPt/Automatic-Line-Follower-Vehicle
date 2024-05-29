@@ -6,7 +6,7 @@ A project to create an Automatic Line Follower Vehicle
  
 
 Για την κατασκευή Θα χρειαστούμε:
-1) Ένα Raspberry RP2040 Pico
+1) Ένα Raspberry RP2040
 2) 2 μοτεράκια
 3) 3 ρόδες
 4) 1 μικρό χάρτινο κουτί για τον σκελετό
