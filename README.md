@@ -2,7 +2,7 @@
 A project to create an Automatic Line Follower Vehicle
 
 Our project has the following goals:
-1) To crate a system that will be able to detect a black line on defferent surfaces.
+1) To create a system that will be able to detect a black line on defferent surfaces.
 2) Our vehicle to move as steadily as possible along a black line
  
 
