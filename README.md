@@ -7,7 +7,7 @@ Our project has the following goals:
  
 
 For the constuction of the robot we will need:
-1) 1 Raspberry RP2040
+1) 1 Raspberry RP2040 (https://nettop.gr/index.php/en/raspberry-pi-en/pico/raspberry-pi-pico-accessories/maker-pi-rp2040-simplifying-robotics-with-raspberry-pi-rp2040.html)
 2) 2 motors
 3) 2 wheels
 4) 1 small paper box for the body
