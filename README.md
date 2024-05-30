@@ -95,12 +95,12 @@ while True:
     
     if button_state == 0 and not running:
         running = True
-        print("Robot started!")
+        #print("Robot started!")
         utime.sleep_ms(500)
     
     elif button_state == 0 and running:
         running = False
-        print("Robot stopped!")
+        #print("Robot stopped!")
         stop()
         utime.sleep_ms(500)
 
@@ -109,9 +109,9 @@ while True:
         
         print(sensor_values)
         if sensor_values[1] == 0 and sensor_values[2] == 0:
-            print("stop")
+            #print("stop")
             stop()
-            print("Robot stopped!")
+            #print("Robot stopped!")
             running = False
             utime.sleep_ms(500)
         else:
