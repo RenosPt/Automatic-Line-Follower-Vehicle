@@ -1,23 +1,23 @@
 # Automatic-Line-Follower-Vehicle
 A project to create an Automatic Line Follower Vehicle
-Το έργο μας έχει τους εξης στόχους:
-1) Την δημιουργία ενός συστήματος που θα μπορεί να ανιχνεύει και να παρακολουθεί μια μαύρη γραμμή σε διαφορετικά είδη επιφανειών.
-2) Την σταθερή κίνηση του οχήματος κατά μήκος μίας μάυρης γραμμής
+Our project has the following goals:
+1) To crate a system that will be able to detect a black line on defferent surfaces.
+2) Our vehicle to move as steadily as possible along a black line
  
 
-Για την κατασκευή Θα χρειαστούμε:
-1) Ένα Raspberry RP2040
+For the constuction of the robot we will need:
+1) 1 Raspberry RP2040
 2) 2 μοτεράκια
-3) 3 ρόδες
-4) 1 μικρό χάρτινο κουτί για τον σκελετό
-5) 1 power bank για την τροφοδοσία του οχήματος
-6) 4 αισθητήρες για την ανίχνευση της μάυρης γραμμής
-7) Καλώδια
+3) 2 wheels
+4) 1 small paper box for the body
+5) 1 power bank which will be the battery of the vehicle
+6) 4 sensors for the detection of a black line
+7) cables
 
-ΚΩΔΙΚΑΣ:
-Για τον κώδικα θα χρειαστούμε το περιβάλλον Thonny.
-Το πρόγραμμα μας έχει δημιουργηθεί με την χρήση της γλώσσας MicroPython.
-Παρακάτω υπάρχει ο κώδικας του οχήματος μαζί με διάφορα σχόλια για την ευκολότερη κατανόηση του:
+CODE:
+For the code we will need the 'Thonny' application.
+Our program has been created inside 'Thonny' application with the use of the programming language called MicroPython.
+Below there is the code of the vehicle with some comments to make it more easily to understand: 
 
 import machine
 import utime
