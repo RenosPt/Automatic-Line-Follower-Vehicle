@@ -8,7 +8,7 @@ Our project has the following goals:
 
 For the constuction of the robot we will need:
 1) 1 Raspberry RP2040
-2) 2 μοτεράκια
+2) 2 motors
 3) 2 wheels
 4) 1 small paper box for the body
 5) 1 power bank which will be the battery of the vehicle
