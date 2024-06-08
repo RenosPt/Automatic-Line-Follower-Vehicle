@@ -12,7 +12,7 @@ For the constuction of the robot we will need:
 3) 2 wheels
 4) 1 small paper box for the body
 5) 1 power bank which will be the battery of the vehicle
-6) 4 sensors for the detection of a black line
+6) 4 digital sensors for the detection of a black line
 7) cables
 
 Alternatively, you can buy an arduino car that comes with the main body, 3 wheels and 2 motors (+ a socket to use batteries instead of a power bank if you wish for) like this one: https://www.skroutz.gr/s/32863022/Haitronic-2WD-Smart-Robot-Car-Chassis-Kit-for-Arduino-HR0238.html 
