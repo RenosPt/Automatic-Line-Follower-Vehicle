@@ -110,17 +110,17 @@ if running:
             
             print(sensor_values)
             if sensor_values[1]==0 and sensor_values[2]==0:
-                print("stop")
+                #print("stop")
                 stop()
-                print("Robot stopped!")
+                #print("Robot stopped!")
                 running = False
                 utime.sleep_ms(500)
             elif sensor_values[0]==0:
-                print("left")
+                #print("left")
                 turn_left(speed)
             elif sensor_values[3]==0:
-                print("right")
+                #print("right")
                 turn_right(speed)
             elif sensor_values[1]==0 or sensor_values[2]==0:
-                print("forward")
+                #print("forward")
                 move_forward(speed)
