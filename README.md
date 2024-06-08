@@ -106,22 +106,21 @@ start/stop robot with button
 if running:
 
     if running:
-        sensor_values = read_sensor_values()
-        
-        print(sensor_values)
-        if sensor_values[1] == 0 and sensor_values[2] == 0:
-            #print("stop")
-            stop()
-            #print("Robot stopped!")
-            running = False
-            utime.sleep_ms(500)
-        else:
-            # Calculate the error based on sensor values
-            error = sensor_values[0] - sensor_values[3]
-            correction = pid.compute(error)
+            sensor_values = read_sensor_values()
             
-            # Adjust motor speeds based on PID correction
-            left_motor_speed = speed - correction
-            right_motor_speed = speed + correction
-            
-            set_motor_speed(left_motor_speed, right_motor_speed)
+            print(sensor_values)
+            if sensor_values[1]==0 and sensor_values[2]==0:
+                print("stop")
+                stop()
+                print("Robot stopped!")
+                running = False
+                utime.sleep_ms(500)
+            elif sensor_values[0]==0:
+                print("left")
+                turn_left(speed)
+            elif sensor_values[3]==0:
+                print("right")
+                turn_right(speed)
+            elif sensor_values[1]==0 or sensor_values[2]==0:
+                print("forward")
+                move_forward(speed)
