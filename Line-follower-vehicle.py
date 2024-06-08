@@ -1,4 +1,3 @@
-#make this line following code better by using pid
 import machine
 import utime
 
