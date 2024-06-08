@@ -25,12 +25,10 @@ Below there is the code of the vehicle with some comments to make it more easily
 P.S: Whenever you see a line starting with the word 'print' is being put as a comment. That is because they delay the program, thus making it slower. These lines serve no purpose to our code, unless the programmer wish to see the values for their own interest. 
 You can make them visible again by just removing this symbol '#' from a line. 
 
-
-#Initial imports for the program
- import machine
- import utime
+# Initial imports for the program
+    import machine
+    import utime  
  
-
 # Initialize PWM for motor control
     left_motor_forward = machine.PWM(machine.Pin(8))
     left_motor_backward = machine.PWM(machine.Pin(9))
